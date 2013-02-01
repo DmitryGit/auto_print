@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Upload you pdf file for print</title>
+</head>
+<body>
+
+    <h1>Use this form to print pdf file.</h1>
+    <h3>(test mode)</h3>
+    <form action="" method="POST" enctype="multipart/form-data">{% csrf_token %}
+        {{ form }}
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+</html>
