@@ -1,4 +1,6 @@
 *.pyc
 .idea/
 .DS_Store
-
+venv
+uploads
+auto_printdb.sqlite
